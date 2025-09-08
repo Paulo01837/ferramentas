@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit de Ferramentas Profissional - 216 Peças</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .benefits {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefits h2 {
+            color: #e60000;
+            margin-bottom: 20px;
+        }
+
+        .benefits ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .benefits li {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .benefits li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #e60000;
+            font-weight: bold;
+        }
+
+        .testimonials {
+            background-color: #fff;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        .testimonial {
+            margin-bottom: 20px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        .testimonial span {
+            display: block;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .cta {
+            background-color: #e60000;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 40px;
+        }
+
+        .cta h2 {
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .cta a {
+            background-color: #fff;
+            color: #e60000;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .cta a:hover {
+            background-color: #ffcccc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            .cta h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🛠️ O Kit de Ferramentas Profissional Que Toda Oficina Precisa!</h1>
+    <p>Potência, Precisão e Durabilidade em Cada Parafuso — 216 Peças de Alta Performance</p>
+</header>
+
+<div class="container">
+    <section class="benefits">
+        <h2>✅ Benefícios e Diferenciais:</h2>
+        <ul>
+            <li>Conjunto completo com 216 peças: soquetes, acessórios, extensões e adaptadores.</li>
+            <li>Aço Cromo-Vanádio (Cr-V): máxima resistência e durabilidade.</li>
+            <li>Acabamento cromado brilhante: proteção contra corrosão.</li>
+            <li>Estojo de alta densidade: organização e segurança no transporte.</li>
+            <li>Encaixe rápido e preciso: mais agilidade no seu dia a dia.</li>
+            <li>Ideal para oficinas mecânicas, montadoras e manutenção automotiva.</li>
+        </ul>
+    </section>
+
+    <section class="testimonials">
+        <h2>📢 O Que Estão Dizendo:</h2>
+        <div class="testimonial">
+            <p>"Desde que comprei esse kit, minha produtividade aumentou. Tudo está sempre à mão, e as peças aguentam o tranco do dia a dia na oficina."</p>
+            <span>— Carlos M., Mecânico Profissional - SP</span>
+        </div>
+        <div class="testimonial">
+            <p>"Já tive outros kits, mas nenhum com essa qualidade e organização. Simplesmente indispensável!"</p>
+            <span>— Rodrigo T., Técnico de Manutenção - MG</span>
+        </div>
+    </section>
+</div>
+
+<section class="cta">
+    <h2>⚠️ Estoque Limitado!</h2>
+    <p>Garanta agora seu kit completo com **desconto exclusivo por tempo limitado**.</p>
+    <a href="#comprar">QUERO MEU KIT PROFISSIONAL AGORA</a>
+</section>
+
+<footer>
+    &copy; 2025 Kit Profissional - Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
